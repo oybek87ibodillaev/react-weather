@@ -1,0 +1,126 @@
+#app {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+  max-width: 900px;
+  margin: auto;
+}
+
+li {
+  margin: 8px 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.done {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+/* input */
+input {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 100%;
+  border: 2px solid #eee;
+
+  border-radius: 0.1rem;
+}
+
+.my-1 {
+  margin: 0.5rem 0;
+}
+
+.bald {
+  font-weight: 600;
+}
+
+/* Today Weather Component */
+.todayWeatherComponent,
+.dailyWeatherComponent {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 3px solid #eee;
+  border-radius: 0.3rem;
+}
+
+.data {
+  font-size: 1.2rem;
+}
+.todayWeatherComponent .large {
+  margin: 1rem;
+  font-size: 4rem;
+}
+
+/* Today Weather Component GRID */
+
+.todayWeatherComponent .grid-container {
+  display: grid;
+  grid-gap: 1rem;
+}
+.todayWeatherComponent .item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.todayWeatherComponent .item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+}
+
+/* Daily Weather Component */
+.dailyWeatherComponent .large {
+  font-size: 2rem;
+}
+
+/* Daily Weather Component GRID */
+.dailyWeatherComponent .grid-container {
+  display: grid;
+  grid-gap: 1rem;
+}
+.dailyWeatherComponent .item1 {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: center;
+  padding: 0.5rem;
+}
+.dailyWeatherComponent .item2 {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  padding: 0.5rem;
+}
+.dailyWeatherComponent .item3 {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
+  padding: 0.5rem;
+}
+.dailyWeatherComponent .item4 {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  text-align: center;
+  padding: 0.5rem;
+}
+.dailyWeatherComponent .item5 {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  text-align: center;
+  padding: 0.5rem;
+}
+
